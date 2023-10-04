@@ -1,0 +1,60 @@
+.erp-style {
+
+    background: #222;
+    color: white;
+    background-size: cover;
+    font-size: 20px;
+    text-align: center;
+    width: 280px;
+    margin-top: 20px;
+    line-height: 80px;
+    padding:50px 0px;
+    padding-left:40px;
+    position: relative;
+ 
+}
+.dd{
+    background-color: transparent;
+    outline:none;
+    border:none;
+    color:#fff;
+    font-size:20px;
+}
+.dropdown-menu{
+    position: absolute;
+    left:100px;
+    top:80px;
+    height:300px;
+    width:280px;
+    background-color:#222;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    padding:20px 0;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.5);
+    border-left:2px solid dodgerblue;
+
+
+}
+.dropdown-menu.clicked{
+
+    display: flex;
+    left:280px;
+}
+.dropdown-menu a{
+    text-decoration: none;
+    color:#fff;
+}
+nav ul li{
+    margin-top:20px;
+    width:80%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor:pointer;
+
+}
+nav ul li:hover{
+    color:dodgerblue;
+}

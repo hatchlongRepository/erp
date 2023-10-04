@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.col-sm-4{
+    
+    margin-top: 70px;
+    color: grey;
+    line-height: 50px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.design li{
+    text-decoration: none;
+    color: black;
+}
+li:hover{
+    background: #e5e3ec;
+}
+li::active{
+    background: #e5e3ec;
+}
+
+
+.btn-top{
+    margin-left: 60%;
+    border-radius: 5px;
+}

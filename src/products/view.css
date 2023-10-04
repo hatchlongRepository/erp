@@ -1,0 +1,21 @@
+table {
+    border-collapse: collapse;
+    margin-top: 25px;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    font-size: 14px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .btn-del:hover {
+    cursor: pointer;
+    
+  }
+  .image-fir{
+    height: 30px;
+    width: 30px;
+  }
